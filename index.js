@@ -94,6 +94,14 @@ for(let i = 0; i < arr8.length; i++) {
 }
 console.log(result);
 
+// question no-9
+let colors = [3, 2, 4, 1,  2, 3];  
+
+let uniqueColors = colors.filter(c => colors.indexOf(c) === colors.lastIndexOf(c));
+
+console.log(uniqueColors.length); 
+
+
 // question no-10
 let arr10 = [33, 11, 44, 66, 22, 77];
 let min = arr10[0];
